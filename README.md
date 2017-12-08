@@ -2,9 +2,8 @@
 This Python script takes in a user entered zip code and returns the closest weather station using the geopy.distance vincenty function.
 
 ## Data required
-* A csv file containing TMY file header data
-** For example `690150,TWENTYNINE PALMS,CA,-8.0,34.300,-116.167,626`
-* A csv file that contains the lat-lon centroid coordinates of all zip-codes
+* A csv file containing TMY file header data (For example `690150,TWENTYNINE PALMS,CA,-8.0,34.300,-116.167,626`)
+* A csv file with headers (`Zip,Lat,Lon`) that contains the lat-lon centroid coordinates of all zip-codes (For example `00601,18.180555,-66.749961`)
 * Both files provided for reference
 
 ## Variables
